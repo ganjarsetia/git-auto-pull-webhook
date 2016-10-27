@@ -1,0 +1,27 @@
+{
+  "name": "git-auto-pull-webhook",
+  "version": "1.0.0",
+  "description": "Auto pull git from remote repositories",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ganjarsetia/git-auto-pull-webhook.git"
+  },
+  "keywords": [
+    "git",
+    "pull"
+  ],
+  "author": "Ganjar Setia M",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ganjarsetia/git-auto-pull-webhook/issues"
+  },
+  "homepage": "https://github.com/ganjarsetia/git-auto-pull-webhook#readme",
+  "dependencies": {
+    "async": "^2.1.2",
+    "git-pull": "^0.1.0"
+  }
+}
